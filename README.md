@@ -1,4 +1,4 @@
-This project is a web app built with Python backend and ReactJS frontend to be used as a starter template.
+This project is a web app built with Python backend and ReactJS frontend to be used for Software Risk Classification
 
 Built With
 Python 3
