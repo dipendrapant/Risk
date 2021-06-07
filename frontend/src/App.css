@@ -1,0 +1,160 @@
+.App {
+  font-family: cursive;
+}
+
+.appHeader,
+.appFooter,
+.inputRisk,
+.inputRisk {
+  text-align: center;
+}
+
+.appHeader {
+  font-family: cursive;
+  color: cadetblue;
+  text-decoration: underline;
+}
+
+.tabContent:nth-child(1) {
+  text-align: center;
+  border: 5px solid #2ba3b3;
+}
+
+.tabContent:nth-child(1) h3 {
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.tabContent:nth-child(2) h3,
+.tabContent.secondTab h3,
+.tabContent.thirdTab h3,
+.tabContent.fourthTab h3 {
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.inputRisk {
+  box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.inputRisk:hover {
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.inputRisk label#selectFileText {
+  margin-right: 1rem;
+}
+
+.inputRisk div {
+  padding: 5px 5px 20px 83px;
+}
+.selectRiskWeights {
+  box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.selectRiskWeights:hover {
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.inputRisk button,
+.selectRiskWeights button {
+  padding: 0.7rem;
+  background: #00bce6;
+  border-color: #00bce6;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+.inputRisk {
+  box-shadow: 4px 2px 4px 2px rgb(0 29 200 / 20%);
+  transition: 0.3s;
+  padding: 1rem;
+}
+.inputRisk:hover {
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.inputRisk h4 span {
+  color: crimson;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+/* Tab Calculating Total Risk */
+.calculateRisk {
+  display: flex;
+}
+.totalRisk {
+  box-shadow: 4px 2px 4px 2px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 0px 0px 5px 0px;
+  padding: 1rem;
+  margin-top: 2rem;
+
+  border: 5px #2ba3b3 solid;
+}
+
+.totalRisk {
+  width: 25%;
+  text-align: center;
+  margin: auto;
+  margin-left: 19rem;
+  background: brown;
+  font-weight: 700;
+  color: #fff;
+}
+
+.secondTab .riskFactor {
+  padding: 5px 0px 5px 0px;
+}
+
+/**/
+.tabsBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.active-tabs {
+  border-bottom: 7px #2ba3b3 solid;
+}
+
+:active .active-tabs::before {
+  content: "";
+  display: block;
+  background: rgb(88, 140, 240);
+}
+
+.active-content {
+  display: block !important;
+  box-shadow: 4px 2px 4px 2px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 0px 0px 5px 0px;
+  padding: 1rem;
+  margin-top: 2rem;
+
+  border: 20px #2ba3b3 solid;
+}
+
+.content {
+  display: none;
+  background: whitesmoke;
+}
+
+.tabsBlock .tabs {
+  padding: 5px;
+  background: whitesmoke;
+  border-radius: 14px;
+}
+
+/* .tabsBlock .tabs:active,
+.active-tabs {
+  
+} */
+/**/
